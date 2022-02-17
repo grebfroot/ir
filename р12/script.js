@@ -6,12 +6,12 @@ header_button.addEventListener("click", function(){
     }
     else{
     header.classList.add("open");
-    header_button.querySelector("img").src="im/close.png";
+    header_button.querySelector("img").src="./close.png";
     } 
 }); 
 function close_p(){
     document.querySelector("header").classList.remove("open");
-    header_button.querySelector("img").src="im/menu.png";
+    header_button.querySelector("img").src="./menu.png";
 }
 document.querySelector(".grid").addEventListener("click", close_p, false);
 document.querySelector("header .p").addEventListener("click",close_p, false);
